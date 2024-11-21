@@ -171,29 +171,32 @@ public class Main {
 </project>
 ```
  
- 7) Instalar todas as dependências do projeto `Maven` listadas no arquivo `pom.xml`:
+ 7) Estrutura de diretório:
+![Alt: EstruturaDeDiretório.](EstruturaDeDiretório.png)
+
+ 8) Instalar todas as dependências do projeto `Maven` listadas no arquivo `pom.xml`:
 ```
   mvn clean install
 ```
 
- 8) Compilar o projeto:
+ 9) Compilar o projeto:
  ```
   mvn clean compile
  ```
 
- 9) Executar o projeto:
+ 10) Executar o projeto:
  ```
   mvn exec:java -Dexec.mainClass="Main"
  ```
  
- 10) Saída:
+ 11) Saída:
  
  ![Alt: saída do programa](SaidaDoPrograma.png)
 
- 11) Clicar no arquivo `teste.db`. No painel lateral direito, clicar na tabela `usuario`. Observar os registros inseridos na tabela:
+ 12) Clicar no arquivo `teste.db`. No painel lateral direito, clicar na tabela `usuario`. Observar os registros inseridos na tabela:
 ![Alt: registros da tabela usuário.](TabelaUsuario.png)
 
-12) Executar:
+13) Executar:
 ```
   git add .
 ```
